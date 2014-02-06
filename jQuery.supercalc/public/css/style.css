@@ -1,0 +1,58 @@
+.button{
+  float: left;
+  font-size: 25px;
+  height: 20px;
+  width: 60px;
+  text-align: center;
+  text-color: white;
+  font-family: monospace;
+  padding: 10px;
+  border: 8px solid white;
+  background-color: #FF7400;
+  transition: background-color 1  ease;
+}
+#box {
+  border: 10px  black;
+  width: 300;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+body {
+  background-color: #A60000;
+}
+#IO {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -100px;
+  width:150px;
+}
+
+#IO input{
+  width: 288px;
+  height: 100px;
+  background-color: gray;
+}
+#queue input{
+  height: 200px;
+  width: 100px;
+  background-color:gray;
+}
+#queue {
+  position: fixed;
+  top: 60%;
+  left: 80%;
+  margin-top: -80px;
+  margin-left: -150px;
+}
+h1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -120px;
+  margin-left: -60px;
+}
